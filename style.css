@@ -1,0 +1,84 @@
+body{
+  font-family: 'Slabo 27px', serif;
+  text-align: center;
+}
+header{
+  background-color: purple;
+
+}
+h1{
+  font-family: 'Merriweather', serif;
+}
+nav{
+  margin-bottom: 20px;
+}
+nav ul{
+  margin: 0 auto;
+}
+main{
+  text-align: center;
+}
+main, .navbar-nav{
+	max-width: 1500px;
+	margin:0 auto;
+}
+h2{
+  font-family: 'Merriweather', serif;
+}
+h3{
+  font-family: 'Merriweather', serif;
+  margin: 30px;
+}
+p{
+	text-align: center;
+}
+div{
+	text-align: center;
+}
+i.fa{
+  color: #000000;
+  font-size: 16px;
+}
+.logo{
+margin: 0 auto;
+display:block;
+}
+footer{
+  background-color: #333333;
+  color: #ffffff;
+}
+.nobullets{
+	list-style-type:none;
+	padding-left:0;
+}
+.wb-carousel{
+	max-width:1400px;
+	margin:20px auto;
+}
+.boxstyle{
+	margin-bottom:20px;
+}
+.controls{
+    width:50px;
+    display:block;
+    font-size:11px;
+    padding-top:8px;
+    font-weight:bold;
+}
+a.controls:hover{
+	text-decoration:none;
+}
+.next {
+    float:right;
+    text-align:right;
+}
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+	}
+}
+media only all and (max-width: 768px) {
+	h1{
+	    font-size: 1.5em;
+	}
+}
